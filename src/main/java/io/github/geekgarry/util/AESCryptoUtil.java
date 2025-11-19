@@ -1,6 +1,6 @@
-package com.github.plusplus.util;
+package io.github.geekgarry.util;
 
-import com.github.plusplus.exceptions.JWTCreationException;
+import io.github.geekgarry.exceptions.JWTCreationException;
 
 import javax.crypto.KeyGenerator;
 import javax.crypto.SecretKey;

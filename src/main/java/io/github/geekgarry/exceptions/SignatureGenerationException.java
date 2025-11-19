@@ -1,6 +1,6 @@
-package com.github.plusplus.exceptions;
+package io.github.geekgarry.exceptions;
 
-import com.github.plusplus.algorithm.Algorithm;
+import io.github.geekgarry.algorithm.Algorithm;
 
 /**
  * author     : geekplus

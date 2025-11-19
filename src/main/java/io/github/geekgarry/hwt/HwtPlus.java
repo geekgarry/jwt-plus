@@ -1,9 +1,9 @@
-package com.github.plusplus.hwt;
+package io.github.geekgarry.hwt;
 
-import com.github.plusplus.exceptions.InvalidClaimException;
-import com.github.plusplus.exceptions.JWTVerificationException;
-import com.github.plusplus.algorithm.Algorithm;
-import com.github.plusplus.util.EnTokenUtil;
+import io.github.geekgarry.exceptions.InvalidClaimException;
+import io.github.geekgarry.exceptions.JWTVerificationException;
+import io.github.geekgarry.algorithm.Algorithm;
+import io.github.geekgarry.util.EnTokenUtil;
 
 import javax.crypto.Cipher;
 import javax.crypto.Mac;

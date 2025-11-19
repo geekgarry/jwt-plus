@@ -1,4 +1,4 @@
-package com.github.plusplus.algorithm;
+package io.github.geekgarry.algorithm;
 
 /**
  * author     : geekplus

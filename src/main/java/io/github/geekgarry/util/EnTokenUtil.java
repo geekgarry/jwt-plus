@@ -1,9 +1,9 @@
-package com.github.plusplus.util;
+package io.github.geekgarry.util;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ObjectNode;
-import com.github.plusplus.exceptions.JWTVerificationException;
+import io.github.geekgarry.exceptions.JWTVerificationException;
 
 import java.nio.charset.StandardCharsets;
 import java.text.DateFormat;

@@ -1,14 +1,14 @@
-package com.github.plusplus.jet;
+package io.github.geekgarry.jet;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ObjectNode;
-import com.github.plusplus.exceptions.InvalidClaimException;
-import com.github.plusplus.exceptions.JWTCreationException;
-import com.github.plusplus.exceptions.JWTVerificationException;
-import com.github.plusplus.algorithm.Algorithm;
-import com.github.plusplus.exceptions.SignatureGenerationException;
-import com.github.plusplus.exceptions.*;
+import io.github.geekgarry.exceptions.InvalidClaimException;
+import io.github.geekgarry.exceptions.JWTCreationException;
+import io.github.geekgarry.exceptions.JWTVerificationException;
+import io.github.geekgarry.algorithm.Algorithm;
+import io.github.geekgarry.exceptions.SignatureGenerationException;
+import io.github.geekgarry.exceptions.*;
 
 import javax.crypto.Cipher;
 import javax.crypto.Mac;

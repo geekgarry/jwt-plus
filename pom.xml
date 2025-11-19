@@ -4,12 +4,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.github.plusplus</groupId>
+    <groupId>io.github.geekgarry</groupId>
     <artifactId>jwt-plus</artifactId>
     <version>1.0.0</version>
     <packaging>jar</packaging>
 
-    <name>JWT-Plus</name>
+    <name>jwt-plus</name>
     <url>http://maven.apache.org</url>
     <description>A custom Maven plugin for generating JWT tokens.</description>
 
@@ -28,6 +28,16 @@
     </dependencies>
     <build>
         <plugins>
+            <plugin>
+                <groupId>org.sonatype.central</groupId>
+                <artifactId>central-publishing-maven-plugin</artifactId>
+                <version>0.9.0</version>
+                <extensions>true</extensions>
+                <configuration>
+                    <publishingServerId>central</publishingServerId>
+                    <autoPublish>true</autoPublish>
+                </configuration>
+            </plugin>
             <plugin>
                 <groupId>org.sonatype.plugins</groupId>
                 <artifactId>nexus-staging-maven-plugin</artifactId>

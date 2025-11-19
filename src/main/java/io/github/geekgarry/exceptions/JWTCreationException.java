@@ -1,4 +1,4 @@
-package com.github.plusplus.exceptions;
+package io.github.geekgarry.exceptions;
 
 /**
  * author     : geekplus
